@@ -1,9 +1,0 @@
-var fs = require('fs');
-var path = require('path');
-
-// process.argv[2] director name
-// process.argv[3] filetpye to filter
-
-var dirname = fs.readdir(process.argv[2], function(err, list){
-  console.log(list)
-});
