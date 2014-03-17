@@ -1,3 +1,6 @@
+// HTTP COLLECT
+// Exercise 08 of 13
+
 var url = process.argv[2];
 var http = require('http');
 var bl = require('bl')

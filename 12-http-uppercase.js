@@ -1,3 +1,6 @@
+// HTTP UPPERCASERER
+// Exercise 12 of 13
+
 var http  = require('http');
 var map   = require('through2-map');
 
